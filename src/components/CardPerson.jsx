@@ -122,9 +122,9 @@ function CardPerson(props) {
             <img src={accept} onClick={() => pushMatch()} />
             <img src={del} onClick={() => props.requestPerson()} />
           </BottonsLike>
-          <hr></hr>
-          <hr></hr>
+         <hr></hr>
          <span>AstroMatcht o amor esta no ar!  💏 </span>
+         <hr></hr>
             </>
       )}
     </CardPersonArea>
