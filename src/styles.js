@@ -4,16 +4,16 @@ export const CardMatch = styled.div`
   display: flex;
   flex-direction: column;
   width: 50vw;
-  height: 100vh;
-  border: 2px solid gray;
-  box-shadow: 1px 1px 10px black;
+  height: 95vh;
+  box-shadow: 10px 10px 10px black;
+  border: 10px black;
   margin: 2% auto;
   justify-content: center;
   align-items: center;
   border-radius: 3%;
   color: black;
   padding: 10px 5px;
-  background: #add8e6;
+  background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(159,147,120,1) 100%);}
 
   hr {
     width: 100%;
@@ -43,7 +43,7 @@ export const BottonsLike = styled.div`
   }
 
   img:hover {
-    box-shadow: 1px 1px 10px black;
+    box-shadow: 1px 1px 10px pink;
     border-radius: 50%;
   }
 
@@ -54,9 +54,9 @@ export const BottonsLike = styled.div`
 export const MatchsList = styled.div`
   display: flex;
   justify-content: space-between;
-  box-shadow: 1px 1px 5px black;
+  box-shadow: 3px 5px 5px #9E9E9E;
   align-items: center;
-  font-weight: bold;
+  font-weight: bolder;
   padding: 5px 8px;
   margin: 5px;
   width: 90%;
@@ -64,7 +64,7 @@ export const MatchsList = styled.div`
   img {
     width: 15%;
     height: 5vh;
-    border-radius: 50%;
+    border-radius: 10%;
     box-shadow: none;
   }
 
@@ -109,7 +109,7 @@ export const Header = styled.div`
   }
 
   span {
-    color: #ff4500;
+    color: #9E9E9E;
     font-weight: bold;
     text-shadow: 1px 1px 3px black;
   }
