@@ -13,7 +13,7 @@ export const CardMatch = styled.div`
   border-radius: 3%;
   color: black;
   padding: 10px 5px;
-  background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(159,147,120,1) 100%);}
+  background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(159,147,120,1) 100%);
 
   hr {
     width: 100%;
