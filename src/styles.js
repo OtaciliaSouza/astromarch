@@ -103,14 +103,14 @@ export const Header = styled.div`
   font-size: 2em;
 
   b {
-    color: #00bfff;
-    text-shadow: 1px 1px 3px black;
+    color: #00838F;
+    text-shadow: 2px 1px 3px black;
   }
 
   span {
-    color: #9E9E9E;
+    color: #757575;
     font-weight: bold;
-    text-shadow: 1px 1px 3px black;
+    text-shadow: 2px 1px 3px black;
   }
 
   img {
