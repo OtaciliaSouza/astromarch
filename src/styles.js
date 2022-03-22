@@ -3,10 +3,9 @@ import styled from "styled-components";
 export const CardMatch = styled.div`
   display: flex;
   flex-direction: column;
-  width: 50vw;
-  height: 95vh;
-  box-shadow: 10px 10px 10px black;
-  border: 10px black;
+  width: 30vw;
+  height: 100vh;
+  box-shadow: inset 0 0 1em black,0 0 1em black ;
   margin: 2% auto;
   justify-content: center;
   align-items: center;

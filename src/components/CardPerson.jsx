@@ -1,5 +1,5 @@
-import accept from "../img/accept.png";
-import del from "../img/del2.png";
+import accept from "../img/v.png";
+import del from "../img/n.png";
 import "../index.css";
 import {
   BottonsLike,
@@ -10,8 +10,8 @@ import {
   PhotoPerson,
   CardPersonArea,
 } from "../styles";
-import match from "../img/match.png";
-import info from "../img/info.png";
+import match from "../img/mat.png";
+import info from "../img/mi.png";
 import { useState } from "react";
 import DivInfo from "./DivInfo";
 import axios from "axios";
@@ -122,12 +122,10 @@ function CardPerson(props) {
             <img src={accept} onClick={() => pushMatch()} />
             <img src={del} onClick={() => props.requestPerson()} />
           </BottonsLike>
-          <footer>
-            <>
-              <span>AstroMatcht o amor esta no ar!  💏 </span>
+          <hr></hr>
+          <hr></hr>
+         <span>AstroMatcht o amor esta no ar!  💏 </span>
             </>
-          </footer>
-        </>
       )}
     </CardPersonArea>
   );
