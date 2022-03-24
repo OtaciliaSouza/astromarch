@@ -4,7 +4,7 @@ export const CardMatch = styled.div`
   display: flex;
   flex-direction: column;
   width: 30vw;
-  height: 100vh;
+  height: 90vh;
   box-shadow: inset 0 0 1em black,0 0 1em black ;
   margin: 2% auto;
   justify-content: center;

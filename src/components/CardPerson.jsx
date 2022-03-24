@@ -123,7 +123,7 @@ function CardPerson(props) {
             <img src={del} onClick={() => props.requestPerson()} />
           </BottonsLike>
          <hr></hr>
-         <span>AstroMatcht o amor esta no ar!  💏 </span>
+         <span>  💞  AstroMatcht o amor esta no ar!  💑 </span>
          <hr></hr>
             </>
       )}
