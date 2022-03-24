@@ -123,7 +123,7 @@ function CardPerson(props) {
             <img src={del} onClick={() => props.requestPerson()} />
           </BottonsLike>
          <hr></hr>
-         <span>  💞  AstroMatcht o amor esta no ar!  💑 </span>
+         <span>  💞  De todas as palavras do dicionário, escolha usar estas três hoje: quer namorar comigo? 💑 </span>
          <hr></hr>
             </>
       )}

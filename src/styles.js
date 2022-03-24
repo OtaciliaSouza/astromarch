@@ -47,7 +47,8 @@ export const BottonsLike = styled.div`
   }
 
   strong {
-    margin: 10% 0;
+  margin: 10% 0;
+  
   }
 `;
 export const MatchsList = styled.div`
@@ -73,13 +74,13 @@ export const MatchsList = styled.div`
 `;
 
 export const ButtonMatch = styled.img`
-  width: 10% !important;
-  height: 10% !important;
-  box-shadow: none !important;
+  width: 10%;
+  height: 10%;
+  box-shadow: none;
 
   &:hover {
     cursor: pointer;
-    width: 9.5% !important;
+    width: 9.5%;
   }
 `;
 
@@ -92,7 +93,7 @@ export const TitleButton = styled.div`
 
 export const AgePerson = styled.b`
   font-size: 1.5em;
-  margin-bottom: 2% !important;
+  margin-bottom: 2%;
 `;
 
 export const Header = styled.div`
@@ -111,6 +112,7 @@ export const Header = styled.div`
     color: #757575;
     font-weight: bold;
     text-shadow: 2px 1px 3px black;
+    
   }
 
   img {
